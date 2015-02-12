@@ -17,6 +17,18 @@ class CarShops {
 		};
 	};
 
+		class civ_corp{
+		side = "civ";
+		vehicles[] = {
+			{ "B_Quadbike_01_F", 2, "" }, 
+			{ "C_Hatchback_01_F", 9, "driver" }, 
+			{ "C_Offroad_01_F", 12, "driver" },
+			{ "C_SUV_01_F", 30, "driver" },
+			{ "C_Hatchback_01_sport_F", 40, "driver" },
+			{ "C_Van_01_transport_F", 450000, "",{ "life_corporation", 1 } }
+		};
+	};
+
 	class kart_shop {
 		side = "civ";
 		vehicles[] = {
