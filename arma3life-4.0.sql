@@ -66,6 +66,8 @@ CREATE TABLE IF NOT EXISTS `players` (
   `donatorlvl` enum('0','1','2','3','4','5') NOT NULL DEFAULT '0',
   `civ_gear` text NOT NULL,
   `blacklist` tinyint(1) NOT NULL DEFAULT '0',
+  `corporation` enum('0','1','2','3','4','5','6','7','8','9','10','11') NOT NULL DEFAULT '0',
+  `bkl_civ` enum('0','1','2','3','4','5') NOT NULL DEFAULT '0',
   PRIMARY KEY (`uid`),
   UNIQUE KEY `playerid` (`playerid`),
   KEY `name` (`name`),
